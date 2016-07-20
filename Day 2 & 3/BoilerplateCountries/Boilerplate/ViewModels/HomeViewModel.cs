@@ -40,7 +40,9 @@ namespace Boilerplate.ViewModels
 
             foreach (var country in countries)
             {
+
                 Countries.Add(country);
+                await Task.Delay(1000);
             }
 
         }

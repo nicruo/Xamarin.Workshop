@@ -23,7 +23,7 @@ namespace Boilerplate.iOS.ViewControllers
         {
             View.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
             View.AddConstraints(
-                TableView.AtTopOf(View),
+                TableView.AtTopOf(View, 10),
                 TableView.AtLeftOf(View),
                 TableView.AtRightOf(View),
                 TableView.AtBottomOf(View)
